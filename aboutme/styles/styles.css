@@ -1,38 +1,67 @@
-body {
+/*body {
     text-align: center;
+}*/
+
+/**/
+a:hover {
+    background-color: white;
+    color: steelblue
+}
+main p {
+    width: 80%;
+    margin: 30px auto;  /* "margin: 0 auto;" --> lo uso para alinear mis block elements como los parrafos  ; el "30px" en lugar del "0" lo uso para agregar espacio arriba */
+    text-align: center;  /* "text-align: center;"  -->lo uso para alinear mis inlines elements y/o el contenido de un block element*/
 }
 
-nav {
+nav, footer {
+    text-align: center;
     background-color: steelblue;
+    color: white;
     padding: 10px;
 }
 a {
+    font-size: 1.5em;
     color: white;
     margin: 40px;
 }
 
 h1 {
+    text-align: center;
     color: steelblue;
     border: 4px solid steelblue;
 }
 img {
-    width: 800px;
+    display:block;
+    width: 80%;
+    margin: 0 auto;
     border: 4px solid steelblue;
 }
 
 p {
-    padding: 10px;
+    width: 80%;
+    /*padding: 10px;*/
 }
 .main-para {
     font-size: 1.5em;
     line-height: 1.5em;
 }
-footer {
-    background-color: steelblue;
-    color: white;
+
+footer p {
+    /*width: 80%;*/
+    font-size: 20px;
+    margin: 20px auto;
+    /*background-color: rgb(70, 114, 180);*/
+    /*color: white;*/
+    /*text-align: center;*/
 }
+
 #active {
     background-color: white;
     color: steelblue;
 }
 
+/*
+*{
+    border: 2px solid blue;
+}
+*/

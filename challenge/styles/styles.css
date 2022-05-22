@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(173, 86, 115);
+}
+
+h1 {
+    color: white;
+}
+
+h1:hover {
+    color: black
+}
+
+img {
+    display:block;
+    width: 15%;
+    margin: 0 auto;
+}
+
+h1, #p1, #p2 {
+    width: 30%;
+    margin: 30px auto;  /* "margin: 0 auto;" --> lo uso para alinear mis block elements como los parrafos  ; el "30px" en lugar del "0" lo uso para agregar espacio arriba */
+    text-align: center;
+}
+
+#p3 {
+    width: 20%;
+    margin: 30px auto;  /* "margin: 0 auto;" --> lo uso para alinear mis block elements como los parrafos  ; el "30px" en lugar del "0" lo uso para agregar espacio arriba */
+    text-align: center;
+}
+
+main ol {
+    font-size: 1.2em;
+    width: 30%;
+    margin: 30px auto; 
+}
+
+footer p {
+    width: 30%;
+    margin: 0 auto;  
+    text-align: center;
+}
+
+
+#p1, #p2, #p3 {
+    color: white;
+}
+
+#p2 {
+    font-size: 1.4em;
+}
+#p3 {
+    font-size: 2em;
+}
