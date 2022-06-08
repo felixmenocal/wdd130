@@ -1,6 +1,7 @@
-/*body {
-    text-align: center;
-}*/
+body {
+    /*text-align: center;*/
+    margin: 0%;
+}
 
 /**/
 a:hover {
@@ -13,22 +14,32 @@ main p {
     text-align: center;  /* "text-align: center;"  -->lo uso para alinear mis inlines elements y/o el contenido de un block element*/
 }
 
-nav, footer {
+nav {
     text-align: center;
     background-color: steelblue;
     color: white;
-    padding: 10px;
+    padding: 25px;
 }
+
 a {
     font-size: 1.5em;
     color: white;
     margin: 40px;
+    padding: 25px;
+}
+
+footer {
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
 }
 
 h1 {
     text-align: center;
     color: steelblue;
     border: 4px solid steelblue;
+    margin: 50px 0;
 }
 img {
     display:block;
@@ -39,20 +50,24 @@ img {
 
 p {
     width: 80%;
-    /*padding: 10px;*/
+    padding: 25px;
+    margin: 50px auto;
+
 }
+
 .main-para {
     font-size: 1.5em;
     line-height: 1.5em;
 }
 
 footer p {
-    /*width: 80%;*/
+    width: 80%;
     font-size: 20px;
     margin: 20px auto;
-    /*background-color: rgb(70, 114, 180);*/
+    padding: 25px;
+    background-color: rgb(70, 114, 180);
     /*color: white;*/
-    /*text-align: center;*/
+    text-align: center;
 }
 
 #active {

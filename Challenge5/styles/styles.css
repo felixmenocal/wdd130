@@ -1,0 +1,31 @@
+
+/*aca enseguida como quitarle el borde izquierdo a la imagen principal*/
+body {
+    margin: 0%;
+}
+
+#image1 {   
+    display: block; /*este display block sirve para quitarle el espacio por default que se agrega despues de una imagen*/
+    width: 100%;
+}
+
+#div2 {
+    background-color: #837c7c;
+    text-align: center;  /*esto centro mis tres imagenes*/
+    padding: 1%;
+    box-sizing: border-box;
+    }
+
+#image2, #image3, #image4 {
+    border-radius: 100%;
+    Border: 15px solid rgb(82, 80, 80);
+    width: 22%;
+    margin: 45px;
+    box-sizing: border-box;
+}       
+
+p {
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+}   
