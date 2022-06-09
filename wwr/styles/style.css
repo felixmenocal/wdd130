@@ -13,25 +13,40 @@ nav a, #hero-msg h1, #hero-msg h4, .button-box, main section {
     height: 725px;
 
 }
+
 body {
+    font-family: Roboto, sans-serif, Arial;
     background-color: #fcfbfb; 
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
+    font-family: "Rock Salt", sans-serif, Arial;
     background-color:rgba(20,30,13, .7);
 }
 nav a {
     color: #ffc300 ;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: black;
-    color: skyblue;
+    color: skyblue; 
 }
 
 .book, .join {
     background-color: #0f5da5;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    /*margin-bottom: 80px;*/
 }
 
 .book:hover, .join:hover {
@@ -43,18 +58,31 @@ nav a:hover {
 }
 .msg {
     background-color: #29d6d0;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #0f5da5;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title {
+    font-family: "Rock Salt", sans-serif, Arial;
     color: green;
+    font-size: 2em;
+    margin-top: 10px;
 }   
 #hero-msg h4 {
     color: #0f5da5;
 }
-.msg h2, .msg p {
+.msg h2 {
+    font-family: "Rock Salt", sans-serif, Arial;
     color: black;
+}
+.msg p {
+    color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer h3 {
@@ -79,7 +107,23 @@ footer h3 a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
+}
+main section img {
+    box-sizing: border-box;
 }
