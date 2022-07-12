@@ -26,7 +26,6 @@ Fonts are separated by a | */
   --nav-hover-background-color: #a03272;
 }   
 
-
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
@@ -175,7 +174,7 @@ nav a:hover {
 }
 
 
-/*aca empieza el del form*/
+
 
 form {
   /* Center the form on the page */
@@ -257,3 +256,5 @@ button {
 .moveDown {
   margin-top: 3em;
 }
+
+/*End of Form css code*/
