@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Open+Sans:wdth,wght@94.7,544&family=Oswald&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&family=Rock+Salt&display=swap');
+
+body {
+  font-family: "Catamaran" , sans-serif, Arial;
+}
 
 /*Header section*/
 header {
-    font-family: "Rock Salt", sans-serif, Arial; /*Change this with site plan info*/
+    font-family: "Catamaran" , sans-serif, Arial; /*Change this with site plan info*/
     background-color: #2c77a9; /*Change this with site plan info*/
     display: grid;
     grid-template-columns: 200px auto;
@@ -25,7 +30,7 @@ nav {
     background-color: #1b818a;
     line-height: 3em;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
   nav  {
     list-style-type: none;
@@ -37,6 +42,7 @@ nav {
     min-width: 120px;
     text-decoration: none;
     padding: 10px;
+    font-size: 1.2em;
   
   }
   nav a:link, nav a:visited {
@@ -48,25 +54,168 @@ nav {
   }
 /*End of nav Section*/
 
+#content {
+  width: 80%;
+  margin: 0 auto;
+}
 
 /*Main Section*/
 
 .home-grid { 
-    display:grid; 
-    grid-template-columns: 50% 50%;
+    display: grid; 
+    grid-template-columns: 45% 45%;
     grid-template-rows: auto;
+    gap: 40px;
     }   
 
 .first-msg {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
-    order: 0;
+    text-align: center;
 }
 
 .hostingdominio1 {
     grid-column: 1 / 3;
     grid-row: 2 / 3;
-    order: 1;
+    text-align: center;
+}
+
+.hostingdominio1 h3, .digital_marqueting2 h3, .google_solutions3 h3 {
+  display: inline;
+
+}
+
+.buy-now {
+  display: inline;  
+  background-color: #1b818a;  
+  padding: 15px 30px;
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+
+.google_solutions3 .buy-now {
+  margin-left: 100px;
+}
+
+
+.buy-now:hover {
+    background-color: rgb(137, 170, 46);
+    color: black;
+}
+
+.imageandpar1 {
+  display: block;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+.home-img {
+  max-width: 100%;
+}
+
+
+.parrfs1 {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+.parrfs2 {
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+  padding: 20px;
+  font-size: 1.2em;
+
+}
+
+.parrfs3 {
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+.digital_marqueting2 {  
+  grid-column: 1 / 3;
+  grid-row: 5 / 6;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.digital_marqueting2, .google_solutions3 {
+  margin-top: 5%;
+}
+
+.imageandpar4 {
+  display: block;
+  grid-column: 1 / 2;
+  grid-row: 6 / 7;
+}
+.home-img2 {
+  width: 100%;
+}
+
+.parrfs4 {  
+  grid-column: 2 / 3;
+  grid-row: 6 / 7;
+  padding: 50px;
+  font-size: 1.2em;
+}
+
+.parrfs5 {
+  grid-column: 1 / 2;
+  grid-row: 7 / 8;
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+.parrfs6 {
+  grid-column: 2 / 3;
+  grid-row: 7 / 8;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.google_solutions3 {
+  grid-column: 1 / 3;
+  grid-row: 8 / 9;
+  text-align: center;
+}
+
+.imageandpar3 {
+  display: block;
+  grid-column: 1 / 2;
+  grid-row: 9 / 10;
+}
+
+.home-img3 {
+  max-width: 100%;
+}
+
+.parrfs7 {
+  grid-column: 2 / 3;
+  grid-row: 9 / 10;
+  padding: 35px;
+  font-size: 1.2em;
+}
+
+.parrfs8 {
+  grid-column: 1 / 2;
+  grid-row: 11 / 12;
+  padding: 10px;
+  font-size: 1.2em;
+} 
+
+.parrfs9 {
+  grid-column: 2 / 3;
+  grid-row: 11 / 12;
+  padding: 10px;
+  font-size: 1.2em;
 }
 
 
