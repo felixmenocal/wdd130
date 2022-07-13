@@ -35,8 +35,9 @@ nav {
   nav  {
     list-style-type: none;
     display: flex;
-  
+    justify-content: space-around;
   }
+  
   nav a {
     padding:1em;
     min-width: 120px;
@@ -217,7 +218,6 @@ nav {
   padding: 10px;
   font-size: 1.2em;
 }
-
 
 
 /*End of Main Section*/
