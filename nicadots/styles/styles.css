@@ -6,8 +6,8 @@ body {
 
 /*Header section*/
 header {
-    font-family: "Catamaran" , sans-serif, Arial; /*Change this with site plan info*/
-    background-color: #2c77a9; /*Change this with site plan info*/
+    font-family: "Catamaran" , sans-serif, Arial;
+    background-color: #2c77a9;
     display: grid;
     grid-template-columns: 200px auto;
     font-weight: bold;
@@ -220,6 +220,8 @@ nav {
   padding: 10px;
   font-size: 1.2em;
 }
+
+ul.a1 {list-style-type: square;}
 
 
 /*End of Main Section*/
