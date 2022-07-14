@@ -23,40 +23,62 @@
         </header>
         
         <main class="faq-grid">
-            <section id="first-msg">
-                <h1 class="home-title">FAQ:</h1>
-            </section>
 
-            <section class="faq">
-                <img class="faq-img" src="images/rsz_web_4.jpg" alt="Man using a laptop">
-                <h2>We love to answer your questions</h2>
+            <!-- Web Component-->
+            <h2>FAQ</h2>
+            <div class="faqimage1">
+                <img class="faq-img" src="images/rsz_web_4_v2.jpg" alt="Man using a laptop">
+            </div>
+            <h3>We love to answer to your questions...</h3>
 
-                <h3> 
-                    What is a web page or website?
-                </h3>
-                <p>
-                    To answer this question, we need to review two concepts that are related and for that reason are often used interchangeably: <br> 
-                    Web page: It is a document that can be displayed in a web browser (such as Google Chrome) <br> 
-                    Website: It is a collection of web pages that are grouped together and are usually connected in various ways.
-                </p>
+            <button class="accordion">What is a web page or website?</button>
+            <div class="panel">
+              <p>To answer this question, we need to review two concepts that are related and for that reason are often used interchangeably: <br> 
+                Web page: It is a document that can be displayed in a web browser (such as Google Chrome) <br> 
+                Website: It is a collection of web pages that are grouped together and are usually connected in various ways.</p>
+            </div>
+            
+            <button class="accordion">Why is it so important to have a website for your business?</button>
+            <div class="panel">
+              <p>By creating a website, you are creating your online presence. This allows you to connect with people you might not otherwise be able to reach.</p>
+            </div>
+            
+            <button class="accordion">What do I have to do to have a website?</button>
+            <div class="panel">
+              <p>Choose and register a web domain name.<br>
+                Choose a hosting or web hosting plan.<br>
+                Choose a service provider of your choice for the design.<br>
+                Provide/approve the content of your business that will be presented to your potential clients.<br>
+                Do you have a logo? It is commonly found in the header of your business website<br> 
+                With all these elements together, you are ready to publish your website.</p>
+            </div>
+            <button class="accordion">How much does a web page cost me?</button>
+            <div class="panel">
+              <p>Visit our Rates page for more details.</p>
+            </div>
+            <button class="accordion">The cost of my website is a single payment or a monthly payment?</button>
+            <div class="panel">
+              <p>The cost for the construction of your Web site is a single payment. However, the hosting of your website is a payment that is renewed annually. Depending on the type of website you can pay for the maintenance/update of your site as needed.</p>
+            </div>            
 
-                <h3>Why is it so important to have a website for your business?</h3>
-                <p>By creating a website, you are creating your online presence. This allows you to connect with people you might not otherwise be able to reach.</p>
-                
-                <h3>What do I have to do to have a website?</h3>
-                <p>Choose and register a web domain name.<br>
-                    Choose a hosting or web hosting plan.<br>
-                    Choose a service provider of your choice for the design.<br>
-                    Provide/approve the content of your business that will be presented to your potential clients.<br>
-                    Do you have a logo? It is commonly found in the header of your business website<br> 
-                    With all these elements together, you are ready to publish your website.</p>
+            <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
+            </script>
 
-                <h3>How much does a web page cost me?</h3>
-                <p>Visit our Rates page for more details.</p>
-
-                <h3>The cost of my website is a single payment or a monthly payment?</h3>
-                <p>The cost for the construction of your Web site is a single payment. However, the hosting of your website is a payment that is renewed annually. Depending on the type of website you can pay for the maintenance/update of your site as needed.</p>
-
+        <!-- Fin de Web Component-->
 
             <section class="section2-faq">
 
