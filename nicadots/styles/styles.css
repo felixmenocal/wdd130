@@ -222,6 +222,7 @@ nav {
 }
 
 ul.a1 {list-style-type: disc;}
+ul.a2 {list-style-type: disc;}
 
 
 /*End of Main Section*/
@@ -377,3 +378,60 @@ form {
   .faq-img {
     width: 100%;
   }
+
+
+  /*CSS for part of the FAQ page */
+
+  .grid-card { 
+    display: grid; 
+    grid-template-columns: 45% 45%;
+    grid-template-rows: auto;
+    gap: 40px;
+    justify-content: center;
+    }  
+    
+.sectionfaq { 
+  grid-column: 1/2;
+  padding: 60px;
+  /*justify-content: center;*/
+}
+
+.sectionfaq, .imgDivfaq {
+  margin-top: 20px;
+}
+
+.imgDivfaq {
+  grid-column: 2/3;
+}
+
+.faq2-img {
+  width: 80%;
+}
+
+
+
+
+
+
+  /*
+  .card {
+    min-width: 100%;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    gap: 30px;
+    place-items: center;
+}
+
+.card div {
+  min-width: 50%;
+  max-width: 50%;
+  
+}
+
+.imgDiv img {
+    max-width: 100%;
+    max-height: 500px;
+    /*max-height: 300px;*/
+    
+}
