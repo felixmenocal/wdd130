@@ -470,6 +470,7 @@ form {
     margin-left: 200px;
     margin-bottom: 2em;
     padding-top: 1em;
+    align-items: end;
   }
   .rates2-img { 
     width: 85%;
@@ -509,3 +510,32 @@ form {
   .button-box {
     margin-top: 50px;
   }
+
+  @media screen and (max-width: 900px) {
+    .home-grid, .rates-grid, .faq-grid, .grid-card {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    .basic1, .basic2, .basic3, .basic4, .basic5, .basic6, .basic7, .basic8 { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .home-img, .home-img2, .home-img3 {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
